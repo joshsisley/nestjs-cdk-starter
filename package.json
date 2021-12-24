@@ -1,0 +1,13 @@
+{
+  "name": "nestjs-cdk-starter",
+  "version": "0.0.0",
+  "description": "A nestjs-cdk-starter",
+  "scripts": {
+    "docs:dev": "vuepress dev docs -p 7070",
+    "docs:build": "DEPLOY_ENV=gh-pages vuepress build",
+    "docs:deploy": "yarn docs:build && gh-pages -d .vuepress/dist"
+  },
+  "dependencies": {
+    "vuepress": "^2.0.0-beta.29"
+  }
+}
