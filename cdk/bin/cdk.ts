@@ -23,7 +23,7 @@ new ecs_patterns.ApplicationLoadBalancedFargateService(
     cluster,
     taskImageOptions: {
       image: ecs.ContainerImage.fromAsset(
-        path.resolve(__dirname, "app/local-image")
+        path.resolve(__dirname, "server/local-image")
       ),
     },
   }
