@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "description": "NestJS Boilerplate, Typescript, Postgres, TypeORM, AWS, CDK",
   "author": "Josh Sisley <josh@sisley.tech>",
-  "private": true,
   "license": "MIT",
   "scripts": {
     "build:prod": "tsc -p tsconfig.build.json",
